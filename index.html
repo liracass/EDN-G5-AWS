@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Website do Grupo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Grupo de TCC</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#membros">Membros</a></li>
+                <li><a href="#servicos">Serviços AWS</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="theme-toggle">
+            <label class="switch">
+                <input id="dark-mode-toggle" type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </header>
+
+    <section id="inicio">
+        <h2>Bem-vindo ao nosso Website!</h2>
+        <p>Aqui você encontrará informações sobre nosso grupo e nossos currículos.</p>
+    </section>
+
+    <section id="membros">
+        <h2>Membros do Grupo</h2>
+        <div class="member-card-wrapper">
+            <div class="member-card" onclick="openModal('moises')">
+                <h3>Moises Ximenes</h3>
+                <p>Assistente de TI | Microsoft 365 | MS-900 | AZ-900 | AZ-104 ⏳ | AWS-Cloud Practitioner ⏳ </p>
+            </div>
+            <div class="member-card" onclick="openModal('jefferson')">
+                <h3>Jefferson Silva</h3>
+                <p>Analista de Suporte Jr | Analista de Infraestrutura Jr
+                </p>
+            </div>
+            <div class="member-card" onclick="openModal('wellington')">
+                <h3>Wellington Souza</h3>
+                <p>Cloud l AWS l Desenvolvedor Front-end l JavaScript
+                </p>
+            </div>
+            <div class="member-card" onclick="openModal('cassiano')">
+                <h3>Cassiano Lira</h3>
+                <p>Desenvolvedor Web | Full Stack | HTML | JavaScript | Cloud AWS | Node JS
+                </p>
+            </div>
+            <div class="member-card" onclick="openModal('fabiola')">
+                <h3>Fabiola Leles</h3>
+                <p>Service Desk | Analista de Suporte Sr | AWS | BD | Redes | TI
+                </p>
+            </div>
+            <div class="member-card" onclick="openModal('raquel')">
+                <h3>Raquel Pedroso</h3>
+                <p>Técnico de Sistemas Junior | BRQ Digital Solutions | Desenvolvedor back end | Python | Mysql | Cloud AWS
+                </p>
+            </div>
+            <div class="member-card" onclick="openModal('tiago')">
+                <h3>Tiago Moura Ribeiro</h3>
+                <p>IT Analyst | IT Infrastructure | Virtualization | VMware | MBA | Cloud | GCP | AWS | Azure |
+                </p>
+            </div>
+            <div class="member-card" onclick="openModal('noisss')">
+                <h3>Noisss</h3>
+                <p>Grupo 5 | Moises | Jefferson | Wellington | Cassiano | Fabiola | Raquel | Tiago </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2023 Grupo de TCC</p>
+    </footer>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal()">&times;</span>
+            <div id="modal-wrapper">
+                <h2 id="modal-title"></h2>
+                <img id="modal-image" class="profile-image" alt="Foto do membro">
+                <div id="modal-content"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
