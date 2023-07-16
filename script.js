@@ -23,7 +23,7 @@ function openModal(member) {
     // Defina o título, a imagem e o conteúdo do modal com base no membro selecionado
     if (member === 'moises') {
         modalTitle.textContent = 'Moises Ximenes';
-        modalImage.src = 'moises.jpg';
+        modalImage.src = 'img/moises.jpg';
         modalContent.innerHTML = `
         <p>Moises Ximenes Albuquerque...</p>
         <p>Sou casado com a Brenda, pai da Betina, tenho 30 anos e sou formado em Análise e Desenvolvimento de Sistemas. Tenho paixão por aprender e estou comprometido em me atualizar constantemente com as mais recentes tecnologias em nuvem.</p>
@@ -54,7 +54,7 @@ function openModal(member) {
       `;
     } else if (member === 'jefferson') {
         modalTitle.textContent = 'Jefferson Silva';
-        modalImage.src = 'jefferson.jpeg';
+        modalImage.src = 'img/jefferson.jpeg';
         modalContent.innerHTML = `
         <p>Jefferson Vasconcelos da Silva...</p>
         <p>Analista de Suporte com ampla experiência em diagnóstico e resolução de problemas complexos. Habilidades avançadas em configuração de servidores, administração de redes e suporte técnico de alto nível. Forte capacidade de colaboração e comunicação, buscando sempre fornecer soluções efetivas para os usuários e garantir a estabilidade dos sistemas. Certificado em LE-1: Linux Essentials e Oracle OCI Foundations Associate...</p>
@@ -86,7 +86,7 @@ function openModal(member) {
 
     if (member === 'wellington') {
       modalTitle.textContent = 'Wellington Souza';
-      modalImage.src = 'wellington.jpeg';
+      modalImage.src = 'img/wellington.jpeg';
       modalContent.innerHTML = `
       <p>Wellington Luiz de Oliveira Souza...</p>
       <h3>Formação Acadêmica</h3>
@@ -128,7 +128,7 @@ function openModal(member) {
     `;
   } else if (member === 'fabiola') {
       modalTitle.textContent = 'Fabiola Leles';
-      modalImage.src = 'fabiola.jpeg';
+      modalImage.src = 'img/fabiola.jpeg';
       modalContent.innerHTML = `
       <p>Fabiola de Matos Leles...</p>
       <p>Atuo como Service Desk para colaboradores da indústria hospitalar e diagnóstica. Tenho facilidade em entender problemas, analisar a causa e verificar soluções eficazes. Meu objetivo de processos é ligado com a qualidade de execução do serviço.</p>
@@ -158,7 +158,7 @@ function openModal(member) {
 
   if (member === 'raquel') {
     modalTitle.textContent = 'Raquel Pedroso';
-    modalImage.src = 'raquel.jpg';
+    modalImage.src = 'img/raquel.jpg';
     modalContent.innerHTML = `
     <p>Raquel Soares Pedroso...</p>
     <p>Procuro uma nova oportunidade para experiências desafiadoras em minha carreira de Desenvolvimento de Sistemas. Acredito que só assim um profissional pode continuar em constante evolução</p>
@@ -185,7 +185,7 @@ function openModal(member) {
   `;
 } else if (member === 'cassiano') {
     modalTitle.textContent = 'Cassiano Lira';
-    modalImage.src = 'cassiano.png';
+    modalImage.src = 'img/cassiano.png';
     modalContent.innerHTML = `
     <p>Cassiano Câmara da Silva Lira...</p>
     <p>Entre os anos de 2018-2021 estive atuante na área esportiva e do comércio e varejo. 
@@ -222,7 +222,7 @@ function openModal(member) {
 
 if (member === 'tiago') {
   modalTitle.textContent = 'Tiago Moura Ribeiro';
-  modalImage.src = 'tiago.jpeg';
+  modalImage.src = 'img/tiago.jpeg';
   modalContent.innerHTML = `
   <p>Tiago Moura Ribeiro...</p>
   <p>Atuar e desempenhar excelente trabalho na área de Tecnologia da Informação. Especialista em 
@@ -279,7 +279,7 @@ if (member === 'tiago') {
 `;
 } else if (member === 'noisss') {
   modalTitle.textContent = 'GRUPO 5 AWS ESCOLA DA NUVEM';
-  modalImage.src = 'noisss.jpg';
+  modalImage.src = 'img/noisss.jpg';
   modalContent.innerHTML = `
   <p>Descrição do Grupo...</p>
   <!-- Adicione as informações relevantes sobre o Grupo -->
